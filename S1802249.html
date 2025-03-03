@@ -1,0 +1,447 @@
+
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 5.4.1.404">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>FlowPortal 从入门到精通</title>
+
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="子流程">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="子流程" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="FlowPortal 从入门到精通" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+  <link href="css/htm.css" rel="stylesheet" />
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="S1802249.html#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>FlowPortal 从入门到精通</h1>
+    
+<img src="logo.jpg" alt="商标" class="logo">
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="S1802249.html#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab" style="display:none;">
+            <a href="S1802249.html#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="S1802249.html#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="S1802249"
+		  data-hnd-context="249"
+		  data-hnd-title="子流程"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="S1802144.html">流程</a></li><li><a href="S1802237.html">节点参考</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="S1802237.html" title="节点参考" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="S1802248.html" title="快照" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="S1802250.html" title="结束" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>子流程</h2>
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps9"><span class="rvts21">发起子流程，带入数据，子流程结束可返回数据。</span></p>
+<p class="rvps9"><span class="rvts21">同步子流程 – 父流程等待子流程返回。</span></p>
+<p class="rvps9"><span class="rvts21">异步子流程 – 父、子流程独立运行，父流程不等待子流程返回。</span></p>
+<p class="rvps9"><span class="rvts21">跨服务器子流程 – 可发起其它BPM服务器上的流程。</span></p>
+<p class="rvps10"><span class="rvts22">常规</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/ZVHKKPA8Q6PVD8PJS.png"></p>
+<div class="rvps9"><table border="1" cellpadding="6" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">属性名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">说明</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">步骤名</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">步骤名称</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">跨服务器调用</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">发起跨服务器子流程调用，也既子流程位于其他服务器上</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">子流程所在服务器</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">在外部服务器中添加外部BPM服务器，即可从此处选择</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">新建连接</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">和外部服务器模块中添加服务器等效，此处为快捷功能</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">子流程名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">指定要调用的子流程</span></p>
+<p class="rvps2"><span class="rvts6">当为跨服务器调用时 </span><span class="rvts64">– </span><span class="rvts6">选择窗体中显示的是外部服务器上的流程</span></p>
+<p class="rvps2"><span class="rvts6">调用本服务器子流程时 </span><span class="rvts64">– </span><span class="rvts6">显示的是本服务器上的流程</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">存储TaskID</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">发起流程后，可以将子流程的TaskID存储到父流程的表单字段中</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">等待子流程返回</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">同步子流程 </span><span class="rvts64">– </span><span class="rvts6">子流程阻塞父流程，发起子流程后，父流程停留在子流程节点，等待子流程返回后，进入下一环节，若发起的是多个字流程，则等待所有子流程返回</span></p>
+<p class="rvps2"><span class="rvts6">异步子流程 </span><span class="rvts64">– </span><span class="rvts6">子流程不阻塞父流程，发起子流程后，父流程即进入下一关卡，父、子流程各跑各的，互不影响</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">自动结束子流程的第一个活动</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">缺省状态下，自流程发起后，停留在开始关卡，勾选此项，会使子流程自动走开始关卡的缺省处理，进入下一关卡。</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts22">创建子流程</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/O995GEWZ5L5E36W0.png"></p>
+<div class="rvps9"><table border="1" cellpadding="6" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">属性名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">说明</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">为以下人员发起流程</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">发起子流程时，子流程的拥有人和第一关的处理人</span></p>
+<p class="rvps2"><span class="rvts6">发起跨服务器子流程时，此项无效，跨服务器子流程，子流程的发起身份为和本服务器ID同名的账号，是固定的</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">为列表中的第一人发起流程</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">只发起一个子流程</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">为列表中的所有人发起流程</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">为每人发起一个子流程，只对本地子流程有效，跨服务器子流程总是发起一个实例</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">为对应处理人</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">跳过本步骤 </span><span class="rvts64">– </span><span class="rvts6">本步骤自动按缺省路径处理</span></p>
+<p class="rvps2"><span class="rvts6">不能提交 </span><span class="rvts64">– </span><span class="rvts6">提交时提示无处理人，任务还停留在本关卡</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts22">数据传入</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/4916Z5RK38N847SA68.png"></p>
+<div class="rvps9"><table border="1" cellpadding="6" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">属性名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">说明</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">填充值</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">发起子流程时，用父流程数据填充子流程表单，实现子流程表单内容初始化</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts22">数据返回</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/IBGTF43ZC3ZZUX1LQ8HW.png"></p>
+<div class="rvps9"><table border="1" cellpadding="6" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">属性名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">说明</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">填充值</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">子流程结束时，将子流程数据回填到父流程表单栏位，实现子流程数据返回到父流程</span></p>
+<p class="rvps2"><span class="rvts6">仅适用于同步子流程，异步子流程不返回数据。</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts22">规则</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/K3Z5JAM79YLZNWN0KR.png"></p>
+<div class="rvps9"><table border="1" cellpadding="6" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">属性名称</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px; background-color: #808080;"><p class="rvps2"><span class="rvts41">说明</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">行过滤规则</span></p>
+</td>
+<td width="700" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 11px;"><p class="rvps2"><span class="rvts6">发起多个子流程时，明细表数据可能需要拆分，可借助行过滤规则实现</span></p>
+<p class="rvps2"><span class="rvts6">发起子流程时系统对每一行调用行过滤规则，返回true代表此行数据可用</span></p>
+<p class="rvps2"><span class="rvts6">当前行数据：Context.Current.Row</span></p>
+<p class="rvps2"><span class="rvts6">当前子流程拥有人： Context.Current.Owner</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps9"><span class="rvts21">示范</span></p>
+<p class="rvps12"><span class="rvts42">FlowDataRow row = Context.Current.Row;</span></p>
+<p class="rvps12"><span class="rvts42">if (row.ParentTable.TableName == "Detail" &amp;&amp; Convert.ToString(row["Account"]) == Context.Current.Owner.UserAccount)</span></p>
+<p class="rvps12"><span class="rvts42"> &nbsp; &nbsp;return true;</span></p>
+<p class="rvps12"><span class="rvts42">else</span></p>
+<p class="rvps12"><span class="rvts42"> &nbsp; &nbsp;return false;</span></p>
+<p class="rvps2"><span class="rvts25"><br/></span></p>
+<p></p>
+<p class="rvps6" style="clear: both;"><span class="rvts13">Created with the Personal Edition of HelpNDoc: </span><a class="rvts14" href="https://www.helpndoc.com/feature-tour/iphone-website-generation">Easily create iPhone documentation</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">版权所有 Copyright(C) 上海易正信息技术有限公司</div><div class="QQ"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2940047728&site=qq&menu=yes"><img border="0" src="qq.png" alt="在线技术支持" title="在线技术支持"/>在线技术支持</a></div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+  <Script src="http://pv.sohu.com/cityjson"></Script>
+  <script src="js/htm.js"></script>
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+
+  </script>
+<script>
+    if(returnCitySN.cname.indexOf("北京市")>=0 || returnCitySN.cname.indexOf("天津市")>=0|| returnCitySN.cname.indexOf("山东省")>=0) {
+       
+    }
+    else if(returnCitySN.cname.indexOf("上海市")>=0||returnCitySN.cname.indexOf("江苏省")>=0||returnCitySN.cname.indexOf("浙江省")>=0) {
+   
+    }
+    else if(returnCitySN.cname.indexOf("深圳市")>=0|| returnCitySN.cname.indexOf("广东省")>=0 || returnCitySN.cname.indexOf("福建省")>=0) {
+       
+    }
+    else if(returnCitySN.cname.indexOf("四川省")>=0 || returnCitySN.cname.indexOf("重庆市")>=0|| returnCitySN.cname.indexOf("陕西省")>=0) {
+        dis();
+    }
+    else {
+        dis();
+    }
+
+</script>
+
+
+</body>
+
+</html>
+
